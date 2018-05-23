@@ -3,10 +3,10 @@ Version Of Clash Royale - 2.1.x
 
 Running
 
-**Bold** and _Italic_ and `node server.js` text
-**Bold** and _Italic_ and `npm install` text
+`node server.js`
+`npm install`
 
-### ¿What's working?
+## ¿What's working?
 
 Clans
 Joinable clan list
@@ -29,12 +29,12 @@ Gold
 Name changing
 NOTE: This version is not ready to run on a production enviroment.
 
-### Requirements
+## Requirements
 
 NodeJS
 MongoDB
 Redis
 
-### Support or Contact
+## Support or Contact
 
 for more problems contact http://paulmodz.pro/
