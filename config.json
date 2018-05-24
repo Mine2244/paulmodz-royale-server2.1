@@ -1,0 +1,42 @@
+{
+    "server": {
+        "port": 9339,
+        "isLocal": false,
+        "localIPs": [
+            "192.168.1.7"
+        ],
+        "blackListedIPs": [
+            "192.168.1.7"
+        ],
+        "useIPBlackList": false,
+        "maintenance": false,
+        "maintenanceTime": 2000,
+        "customMessage": "PaulModz Royale Server is offline!",
+        "gameAssetsUrl": "https://game-assets.clashroyaleapp.com",
+        "eventAssetsUrl": "https://event-assets.clashroyale.com",
+        "contentUrl": "http://79.51.48.46/",
+        "updateUrl": "writeurmessagehere",
+        "redirectUrl": "yoursite.com",
+        "serverID": 0,
+        "serverType": "prod",
+        "clientMajorVersion": 3,
+        "clientMinorVersion": 830,
+        "clientBuild": 15
+    },
+    "player": {
+        "startingName": "PaulModzisthebest",
+        "startWithAllZero": false,
+        "startingTrophies": 3400,
+        "startingLevel": 13,
+        "startingXP": 100,
+        "startingResources": {
+            "gold": 1000000,
+            "diamonds": 1000000
+        }
+    },
+    "database": {
+        "name": "royaleserver",
+        "host": "127.0.0.1",
+        "password": null
+    }
+}

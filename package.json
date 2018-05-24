@@ -1,0 +1,22 @@
+{
+  "name": "royale-server",
+  "version": "1.0.0",
+  "description": "A server for clash royale",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Efesto",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bytebuffer": "^5.0.1",
+    "connect": "^3.6.6",
+    "expressjs": "^1.0.1",
+    "fast-csv": "^2.4.1",
+    "long": "^4.0.0",
+    "mongoose": "^5.0.9",
+    "nodemon": "^1.17.1",
+    "serve-static": "^1.13.2",
+    "simple-rc4": "0.0.1-b"
+  }
+}
