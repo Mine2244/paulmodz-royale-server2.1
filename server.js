@@ -1,12 +1,12 @@
 const net = require("net");
 global.config = require('./config.json');
-global.fingerprint = require('./patch/fingerprint');
-const Session = require('./protocol/device');
-const PacketHandler = require('./protocol/packetHandler');
+//-> Missing : global.fingerprint = require('./patch/fingerprint');
+//-> Missing : const Session = require('./protocol/device');
+//-> Missing : const PacketHandler = require('./protocol/packetHandler'); 
 let mongooseInstance = require('./database/mongoose');
 mongooseInstance = new mongooseInstance();
 const tag2id = require('./utils/tag2id');
-let processor = new PacketHandler();
+//-> Missing : let processor = new PacketHandler();
 const cardsUtils = require('./utils/cardUtils');
 const csvUtils = require('./utils/csvUtils');
 
